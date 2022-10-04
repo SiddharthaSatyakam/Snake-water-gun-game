@@ -1,4 +1,4 @@
-let a = prompt("enter either S or W or G");
+let a = prompt("Enter either S or W or G");
 let b = Math.floor(Math.random() * 3);
 let c = ["S", "W", "G"][b];
 
@@ -12,7 +12,7 @@ const res = (a, c) => {
   if (a === "G" && c === "W") { return "CPU" }
 }
 let result = res(a, c)
-document.write(`CPU: ${c} & USER: ${a} The winner is ${result}`)
+document.write(`CPU: ${c} <br> USER: ${a} <br> The winner is ${result}`)
 
 // let user = prompt("Enter S, W or G")
 // let cpuI = Math.floor(Math.random() * 3);
